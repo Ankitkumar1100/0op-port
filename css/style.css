@@ -1,0 +1,251 @@
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+header {
+  background-color: #121212;
+  position: relative;
+  margin: 47px 460px;
+  width: 634px;
+  height: 56px;
+  border-radius: 37px;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.hiss {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: -50px;
+  left: 50px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  display: flex;
+  align-items: center;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header nav ul li.social-icons a img {
+  width: 20px;
+  height: 20px;
+}
+
+#hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 100px;
+}
+
+.intro h1 {
+  font-size: 5em;
+  margin: 22px;
+}
+
+.intro p {
+  font-size: 1.2em;
+  max-width: 600px;
+}
+
+.intro button,
+.intro a {
+  display: inline-block;
+  margin: 10px 10px 10px 0;
+  padding: 10px 20px;
+  border: none;
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 14px;
+}
+
+.intro a {
+  background-color: transparent;
+  /* border: 2px solid #fff; */
+  color: #fff;
+}
+
+.photo img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+#skills {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.xp h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.tech-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.card {
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  width: 150px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.card img {
+  width: 50px;
+  height: 50px;
+}
+
+.keywords {
+  margin-top: 30px;
+}
+
+.keywords h3 {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 1.5em;
+  color: #9b59b6;
+}
+
+#skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full viewport height */
+  background-color: #000; /* Black background */
+  color: #fff; /* White text */
+}
+
+.skill-item {
+  font-size: 2em; /* Large font size */
+  margin: 20px 0; /* Margin between items */
+  color: #8a2be2; /* Light purple color */
+}
+
+.skill-item:nth-child(2) {
+  color: #9932cc; /* Darker purple color for React */
+}
+
+.skill-item:nth-child(3) {
+  color: #800080; /* Even darker purple color for Coffee */
+}
+
+#technologies {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+#technologies h2 {
+  margin-bottom: 91px;
+  align-items: flex-end;
+  font-size: xxx-large;
+}
+
+.technology-categories {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  width: 90%;
+}
+
+.category {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #333;
+  border-radius: 8px;
+  background-color: #1e1e1e;
+  width: 200px;
+}
+
+.category h3 {
+  margin-top: 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+.category ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.category ul li {
+  display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.category li i {
+  margin-right: 10px;
+  font-size: 1.5em;
+  color: #61dafb; /* Adjust color for different icons if needed */
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #121212;
+  position: relative;
+  margin: 80px 451px;
+  width: 644px;
+  height: 16px;
+  border-radius: 37px;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1);
+  background-color: #121212;
+}
+
+footer p {
+  margin: 10px 0;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: -50px;
+  left: 50px;
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  top: 20px;
+  left: 536px;
+  position: absolute;
+}
+
+footer .social-icons a img {
+  width: 20px;
+  height: 20px;
+}
