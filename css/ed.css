@@ -225,3 +225,130 @@ h2 {
   text-decoration: none;
   font-size: 16px;
 }
+
+/* Media queries */
+
+/* Existing CSS */
+/* (Place the rest of your CSS here) */
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1024px) {
+  header {
+    margin: 20px 10px;
+    width: calc(100% - 20px);
+  }
+
+  header nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header nav ul li {
+    margin-bottom: 10px;
+  }
+
+  #education-hero {
+    padding: 20px 10px;
+    font-size: 2em;
+  }
+
+  .certificate-card {
+    flex-direction: column;
+    width: calc(100% - 40px);
+    padding: 10px;
+  }
+
+  .certificate-left,
+  .certificate-right {
+    padding: 10px;
+  }
+
+  .certificate-right {
+    justify-content: center;
+  }
+
+  footer {
+    margin: 20px 10px;
+    width: calc(100% - 20px);
+    padding: 10px;
+  }
+
+  footer .footer-content {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  footer .social-icons {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    margin: 10px 5px;
+    width: calc(100% - 10px);
+  }
+
+  header nav ul {
+    gap: 20px;
+  }
+
+  #education-hero {
+    padding: 20px;
+    font-size: 1.5em;
+  }
+
+  .certificate-card {
+    padding: 10px;
+  }
+
+  .certificate-left,
+  .certificate-right {
+    padding: 5px;
+  }
+
+  footer {
+    padding: 10px;
+  }
+
+  footer .footer-content {
+    text-align: center;
+  }
+
+  footer .social-icons {
+    gap: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    margin: 5px;
+    width: calc(100% - 10px);
+  }
+
+  header nav ul {
+    gap: 10px;
+  }
+
+  #education-hero {
+    padding: 10px;
+    font-size: 1.2em;
+  }
+
+  .certificate-card {
+    padding: 10px;
+  }
+
+  .certificate-left,
+  .certificate-right {
+    padding: 5px;
+  }
+
+  footer {
+    padding: 5px;
+  }
+
+  footer .social-icons {
+    gap: 5px;
+  }
+}

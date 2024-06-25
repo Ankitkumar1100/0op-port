@@ -190,10 +190,9 @@ header nav ul li.social-icons a img {
 
 .category h3 {
   margin-top: 0;
-    text-align: center;
-    color: #ffffff;
+  text-align: center;
+  color: #ffffff;
 }
-
 
 .category ul {
   list-style: none;
@@ -203,8 +202,8 @@ header nav ul li.social-icons a img {
 
 .category ul li {
   display: flex;
-    align-items: center;
-    margin: 10px 0;
+  align-items: center;
+  margin: 10px 0;
 }
 
 .category li i {
@@ -248,4 +247,140 @@ footer .social-icons {
 footer .social-icons a img {
   width: 20px;
   height: 20px;
+}
+
+/* Media Queries */
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  header {
+    margin: 20px 10px;
+    width: calc(100% - 20px);
+  }
+
+  .hiss {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  header nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #hero {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .intro h1 {
+    font-size: 2em;
+    margin: 10px 0;
+  }
+
+  .intro p {
+    font-size: 1em;
+    max-width: 100%;
+    margin: 10px 0;
+  }
+
+  .intro button,
+  .intro a {
+    display: block;
+    width: calc(100% - 20px);
+    margin: 10px auto;
+  }
+
+  .photo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .photo img {
+    width: 150px;
+    height: 150px;
+  }
+
+  #skills {
+    padding: 20px;
+  }
+
+  .skill-item {
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
+
+  #technologies {
+    padding: 20px;
+  }
+
+  #technologies h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+  }
+
+  .technology-categories {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .category {
+    width: calc(100% - 20px);
+    max-width: 300px;
+  }
+
+  footer {
+    margin: 20px 10px;
+    width: calc(100% - 20px);
+  }
+
+  footer .social-icons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer .social-icons a img {
+    margin: 5px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    margin: 10px 5px;
+    width: calc(100% - 10px);
+  }
+
+  .intro h1 {
+    font-size: 1.5em;
+  }
+
+  .intro p {
+    font-size: 0.9em;
+  }
+
+  .photo img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .skill-item {
+    font-size: 1.2em;
+  }
+
+  #technologies h2 {
+    font-size: 1.2em;
+  }
+
+  .category {
+    padding: 10px;
+  }
 }
